@@ -1,7 +1,7 @@
-📸 Live Video Captioning with Audio 🎤
-Real-time video captioning using a Transformer model and speaking the captions out loud using TTS!
+# 📸 Live Video Captioning with Audio 🎤
+## Real-time video captioning using a Transformer model and speaking the captions out loud using TTS!
 
-🚀 Features
+## 🚀 Features
 📷 Live Webcam Feed processing
 
 🧠 Transformer-Based Image Captioning with ViT-GPT2
@@ -14,7 +14,7 @@ Real-time video captioning using a Transformer model and speaking the captions o
 
 💻 CUDA / CPU device support
 
-🛠️ Requirements
+## 🛠️ Requirements
 Python 3.7+
 
 PyTorch
@@ -25,7 +25,7 @@ pyttsx3
 
 Transformers (🤗 Hugging Face)
 
-🎯 How It Works
+## 🎯 How It Works
 Opens your webcam 📷
 
 Captures frames (skipping some to save resources)
@@ -42,14 +42,14 @@ Press q to quit gracefully.
 
 Make sure your webcam is connected and accessible.
 
-🧠 Model Used
+## 🧠 Model Used
 nlpconnect/vit-gpt2-image-captioning
 
 A Vision Transformer (ViT) encoder + GPT2 decoder model
 
 Pretrained on a large dataset for generic image captioning
 
-📝 Notes
+## 📝 Notes
 Frame skipping (frame_skip) can be adjusted to balance speed and caption accuracy.
 
 Resize factor (resize_factor) helps reduce computational load.
@@ -58,7 +58,8 @@ Ensure your microphone/speakers are working for TTS output.
 
 CUDA will be used automatically if available 🔥.
 
-🤖 Future Ideas
+## 🤖 Future Ideas
+
 🎯 Integrate Zero-Shot Object Detection
 
 🌐 Stream captions over a network
