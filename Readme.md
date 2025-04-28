@@ -1,8 +1,8 @@
-#📸 Live Video Captioning with Audio 🎤
-##Real-time video captioning using a Transformer model and speaking the captions out loud using TTS!
+📸 Live Video Captioning with Audio 🎤
+Real-time video captioning using a Transformer model and speaking the captions out loud using TTS!
 
-##🚀 Features
-##📷 Live Webcam Feed processing
+🚀 Features
+📷 Live Webcam Feed processing
 
 🧠 Transformer-Based Image Captioning with ViT-GPT2
 
@@ -25,7 +25,7 @@ pyttsx3
 
 Transformers (🤗 Hugging Face)
 
-#🎯 How It Works
+🎯 How It Works
 Opens your webcam 📷
 
 Captures frames (skipping some to save resources)
